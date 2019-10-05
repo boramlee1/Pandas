@@ -1,4 +1,7 @@
-# <Python1> 
+### Python_1 
+
+```python
+
 # TDD(Test Driven Development)
 # Red - Green - Refactoring
 # f(x,y)
@@ -10,29 +13,35 @@
 # F(5) 120
 
 # 변수
+
 name = 'Anne'
 score = 100
 print(name,score)
 
 # 여러 변수
+
 score1 = 80
 score2 = 90
 score3 = 70
 print(name, score1, score2, score3)
 
 # 리스트
+
 scores = [80, 90, 70]
 print(name, scores[0], scores[1], scores[2])
 
 # 모두 더하기
+
 total_score = scores[0] + scores[1] + scores[2]
 print(total_score)
 
 # 다시 할당
+
 total_score = 0
 print(total_score)
 
 # 우아하게 모두 더하기(새로운 함수)
+
 total_score = sum(scores)
 print(total_score)
 
@@ -41,12 +50,10 @@ subjects_count = len(scores)
 print(subjects_count)
 
 # 평균 점수 구하기
-
 average_score = sum(scores)/len(scores)
 print(average_score)
 
 # 최소, 최대 점수 구하기
-
 min_score = min(scores)
 max_score = max(scores)
 print(min_score, max_score)
@@ -119,8 +126,9 @@ print(some_scores)
 
 
 # 연습문제
-scores = [80, 100, 70, 90, 40]
 # total score 구하기
+
+scores = [80, 100, 70, 90, 40]
 
 total_score = 0
 total_score += scores[0] + scores[1] + scores[2] + scores[3] + scores[4]
